@@ -56,14 +56,10 @@ weather-frontend-m2/
 
 ## Cómo ejecutar el proyecto
 
-1. Descargar o clonar el repositorio.
+1. Descargar el repositorio.
 2. Abrir el archivo `index.html` en el navegador.
 
----
-
-## Repositorio GitHub
-
-Reemplazar con tu enlace:
+## Repositorio GitHub (link)
 
 https://github.com/davidparadarcl/weather-frontend-m2
 
@@ -71,4 +67,4 @@ https://github.com/davidparadarcl/weather-frontend-m2
 
 ## Autor
 
-Proyecto desarrollado por David Parada.
+Proyecto desarrollado por David Ignacio Parada Rebolledo.
