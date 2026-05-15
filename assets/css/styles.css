@@ -1,6 +1,64 @@
+/* ===== GENERAL ===== */
+
 body {
     background-color: #f5f5f5;
+    padding-top: 80px;
 }
+
+/* ===== NAVBAR ===== */
+
+.navbar {
+    z-index: 999;
+}
+
+/* ===== SIDEBAR ===== */
+
+.sidebar {
+    background-color: #212529;
+    min-height: 100vh;
+    color: white;
+}
+
+.sidebar .list-group-item {
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 10px;
+}
+
+/* ===== HERO SECTION ===== */
+
+.hero-section {
+    background-image: url("../img/santiago.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 320px;
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.45);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    color: white;
+}
+
+.hero-overlay h1 {
+    font-size: clamp(2rem, 5vw, 4rem);
+}
+
+.hero-overlay p {
+    max-width: 700px;
+    font-size: 1.1rem;
+}
+
+/* ===== CARDS ===== */
 
 .card {
     transition: 0.3s;
@@ -15,8 +73,10 @@ body {
     object-fit: cover;
 }
 
+/* ===== DETAIL ===== */
+
 #detailContainer img {
     max-height: 450px;
-    object-fit: cover;
     width: 100%;
+    object-fit: cover;
 }
